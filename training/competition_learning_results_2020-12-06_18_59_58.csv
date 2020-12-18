@@ -1,0 +1,2 @@
+,test_score_mean,test_score_3_std,train_score_mean,train_score_3_std,model_name,model_params,starting_pos,training_time
+0,0.7165711341248251,0.026594680637647798,0.7577243373026831,0.013242390911607666,KerasClassifier,"{'epochs': 10, 'batch_size': 32, 'build_fn': <function create_model at 0x7f86c7d78488>}",0.0,602.2000460624695

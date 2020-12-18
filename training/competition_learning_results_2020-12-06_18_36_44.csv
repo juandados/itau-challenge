@@ -1,0 +1,8 @@
+,test_score_mean,test_score_3_std,train_score_mean,train_score_3_std,model_name,model_params,starting_pos,training_time
+1,0.7954751130087344,0.027729681220859462,0.8805749671724561,0.005503082464371511,MultiOutputClassifier,"{'estimator__boosting_type': 'gbdt', 'estimator__class_weight': None, 'estimator__colsample_bytree': 1.0, 'estimator__importance_type': 'split', 'estimator__learning_rate': 0.1, 'estimator__max_depth': -1, 'estimator__min_child_samples': 20, 'estimator__min_child_weight': 0.001, 'estimator__min_split_gain': 0.0, 'estimator__n_estimators': 100, 'estimator__n_jobs': -1, 'estimator__num_leaves': 31, 'estimator__objective': None, 'estimator__random_state': None, 'estimator__reg_alpha': 0.0, 'estimator__reg_lambda': 0.0, 'estimator__silent': True, 'estimator__subsample': 1.0, 'estimator__subsample_for_bin': 200000, 'estimator__subsample_freq': 0, 'estimator': LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=None, reg_alpha=0.0, reg_lambda=0.0, silent=True,
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0), 'n_jobs': None}",1.0,95.74685263633728
+0,0.7168536569420433,0.028372932683697005,0.736238935241756,0.009328165510393593,KerasClassifier,"{'epochs': 5, 'batch_size': 32, 'build_fn': <function create_model at 0x7f86c7b34c80>}",0.0,311.5990478992462

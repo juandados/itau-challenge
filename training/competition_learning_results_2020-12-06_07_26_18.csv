@@ -1,0 +1,14 @@
+,test_score_mean,test_score_3_std,train_score_mean,train_score_3_std,model_name,model_params
+0,0.7962178709630192,0.02178073519096907,0.832858124798431,0.01883887370238635,MultiOutputClassifier,"{'estimator__base_score': 0.5, 'estimator__booster': 'gbtree', 'estimator__colsample_bylevel': 1, 'estimator__colsample_bynode': 1, 'estimator__colsample_bytree': 1, 'estimator__gamma': 0, 'estimator__learning_rate': 0.1, 'estimator__max_delta_step': 0, 'estimator__max_depth': 3, 'estimator__min_child_weight': 1, 'estimator__missing': None, 'estimator__n_estimators': 100, 'estimator__n_jobs': 1, 'estimator__nthread': None, 'estimator__objective': 'binary:logistic', 'estimator__random_state': 0, 'estimator__reg_alpha': 0, 'estimator__reg_lambda': 1, 'estimator__scale_pos_weight': 1, 'estimator__seed': None, 'estimator__silent': None, 'estimator__subsample': 1, 'estimator__verbosity': 1, 'estimator': XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, gamma=0,
+              learning_rate=0.1, max_delta_step=0, max_depth=3,
+              min_child_weight=1, missing=None, n_estimators=100, n_jobs=1,
+              nthread=None, objective='binary:logistic', random_state=0,
+              reg_alpha=0, reg_lambda=1, scale_pos_weight=1, seed=None,
+              silent=None, subsample=1, verbosity=1), 'n_jobs': None}"
+1,0.7913804699831595,0.018688666299760126,0.9019137105904214,0.03069456541734522,MultiOutputClassifier,"{'estimator__boosting_type': 'gbdt', 'estimator__class_weight': None, 'estimator__colsample_bytree': 1.0, 'estimator__importance_type': 'split', 'estimator__learning_rate': 0.1, 'estimator__max_depth': -1, 'estimator__min_child_samples': 20, 'estimator__min_child_weight': 0.001, 'estimator__min_split_gain': 0.0, 'estimator__n_estimators': 100, 'estimator__n_jobs': -1, 'estimator__num_leaves': 31, 'estimator__objective': None, 'estimator__random_state': None, 'estimator__reg_alpha': 0.0, 'estimator__reg_lambda': 0.0, 'estimator__silent': True, 'estimator__subsample': 1.0, 'estimator__subsample_for_bin': 200000, 'estimator__subsample_freq': 0, 'estimator': LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=None, reg_alpha=0.0, reg_lambda=0.0, silent=True,
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0), 'n_jobs': None}"
